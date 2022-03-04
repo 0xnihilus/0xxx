@@ -243,7 +243,7 @@ export const MintCText2 = styled.div`
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 190px;
+  padding-left: 170px;
 }
 `;
 
