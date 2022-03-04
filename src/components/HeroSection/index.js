@@ -210,8 +210,8 @@ const HeroSection = () => {
       <HeroContent>
         <MintDiv>
           <MiniAbout>0xWonderPals is an expansion collection of 10K unique reconstructed cute NFTs. There are no duplicates of the original project. </MiniAbout>
-          <First>#YellowArmy</First>
-          <Then>0.0069Ξ each (max 25 NFT / tx.)</Then>
+          <First></First>
+          <Then>0.0069Ξ each (max 25 NFT per tx.)</Then>
           <Minted>
             <MintCText>Minted</MintCText>
             <MintCText2>{supply}/10000</MintCText2>
