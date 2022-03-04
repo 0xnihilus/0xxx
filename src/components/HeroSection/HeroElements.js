@@ -84,15 +84,18 @@ export const MintDiv = styled.div`
   height: 480px;
   width: 480px;
   position: relative;
-  background: #282828;
+  background: #7dbcaa;
   border-radius: 25px;
+  border-color: #3b3b3b;
+  border-style: solid;
+  border-width: 10px;
 
   @media only screen and (max-width: 600px) {
   
     height: 500px;
     width: 320px;
     position: relative;
-    background: #282828;
+    background: #7dbcaa;
     border-radius: 25px;
   
 }
@@ -100,7 +103,7 @@ export const MintDiv = styled.div`
 
 export const MiniAbout = styled.p`
   color: white;
-  background: #282828;
+  background: #7dbcaa;
   position: relative;
   margin: 10px;
   padding-top: 15px;
@@ -174,7 +177,7 @@ export const ConnectButton = styled.button`
 
 export const MyNFT = styled.p`
   color: white;
-  background: #282828;
+  background: #7dbcaa;
   position: absolute;
   margin-top: 5px;
   margin-left: 33%;
@@ -183,14 +186,14 @@ export const MyNFT = styled.p`
   color: white;
   background: #282828;
   position: absolute;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 25%;
 }
 `;
 
 export const First = styled.p`
   color: white;
-  background: #282828;
+  background: #7dbcaa;
   position: relative;
   margin: 10px;
   padding-top: 30px;
@@ -198,7 +201,7 @@ export const First = styled.p`
 
 export const Then = styled.p`
   color: white;
-  background: #282828;
+  background: #7dbcaa;
   position: relative;
   margin: 10px;
 `;
@@ -230,7 +233,6 @@ export const PriceText2 = styled.div`
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 200px;
   
 }
 `;
@@ -244,7 +246,6 @@ export const MintCText2 = styled.div`
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 160px;
   
 }
 `;
@@ -282,7 +283,7 @@ export const Minted = styled.div`
 
 export const MintInput = styled.div`
   color: white;
-  background: #282828;
+  background: #7dbcaa;
   margin: 0 auto;
   width: 100%;
   position: relative;
