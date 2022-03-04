@@ -176,14 +176,14 @@ export const MyNFT = styled.p`
   color: white;
   background: #282828;
   position: absolute;
-  margin-top: 25px;
+  margin-top: 5px;
   margin-left: 33%;
   @media only screen and (max-width: 600px) {
   
   color: white;
   background: #282828;
   position: absolute;
-  margin-top: -25px;
+  margin-top: 15px;
   margin-left: 25%;
 }
 `;
@@ -225,12 +225,12 @@ export const PriceText2 = styled.div`
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 390px;
+  padding-left: 360px;
   @media only screen and (max-width: 600px) {
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 190px;
+  
 }
 `;
 
@@ -238,12 +238,12 @@ export const MintCText2 = styled.div`
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 345px;
+  padding-left: 330px;
   @media only screen and (max-width: 600px) {
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 150px;
+  
 }
 `;
 
