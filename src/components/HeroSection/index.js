@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
-import contract from "../../contracts/0xInvisibleFriends.json";
+import contract from "../../contracts/0xWonderPals.json";
 import bg from "../../images/left.png";
 import bg2 from "../../images/right.png";
 
