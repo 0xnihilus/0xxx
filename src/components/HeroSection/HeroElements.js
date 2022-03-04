@@ -230,7 +230,7 @@ export const PriceText2 = styled.div`
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 160px;
+  padding-left: 200px;
   
 }
 `;
