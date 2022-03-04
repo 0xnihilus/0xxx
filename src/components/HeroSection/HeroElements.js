@@ -183,7 +183,7 @@ export const MyNFT = styled.p`
   color: white;
   background: #282828;
   position: absolute;
-  margin-top: 0px;
+  margin-top: -25px;
   margin-left: 25%;
 }
 `;
@@ -230,7 +230,7 @@ export const PriceText2 = styled.div`
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 220px;
+  padding-left: 190px;
 }
 `;
 
@@ -243,7 +243,7 @@ export const MintCText2 = styled.div`
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 170px;
+  padding-left: 150px;
 }
 `;
 
