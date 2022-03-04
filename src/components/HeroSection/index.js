@@ -30,7 +30,7 @@ import {
   MintDiv,
 } from "./HeroElements";
 
-const contractAddress = "0xd809775d11ae44d5b7d0301e99b3b1a5199ac4fa";
+const contractAddress = "0x54cf38AB2f01E1E02Fba38887CD87667bC7d040D";
 const abi = contract.abi;
 
 const HeroSection = () => {
