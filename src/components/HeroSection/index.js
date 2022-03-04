@@ -30,7 +30,7 @@ import {
   MintDiv,
 } from "./HeroElements";
 
-const contractAddress = "0xC18beA3c8305BffdD36b01Df050A23764f810173";
+const contractAddress = "0xDa579eF1279a7d438A6708ef584cc25A54BE58B4";
 const abi = contract.abi;
 
 const HeroSection = () => {
@@ -92,7 +92,7 @@ const HeroSection = () => {
         const ethAmount = (0.0069 * _amount).toString();
         const accounts = await ethereum.request({ method: "eth_accounts" });
 
-        if (num >= 999) {
+        if (num >= 1000) {
           setFeedback("starting payment...");
           let mintNft = await nftContract.mint(accounts[0], _amount, {
             value: ethers.utils.parseEther(ethAmount),
