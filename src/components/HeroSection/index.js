@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import contract from "../../contracts/0xWonderPals.json";
-import bg from "../../images/left.png";
+import bg from "../../images/uh.png";
 import bg2 from "../../images/right.png";
 
 import {
@@ -30,7 +30,7 @@ import {
   MintDiv,
 } from "./HeroElements";
 
-const contractAddress = "0xDa579eF1279a7d438A6708ef584cc25A54BE58B4";
+const contractAddress = "0xC18beA3c8305BffdD36b01Df050A23764f810173";
 const abi = contract.abi;
 
 const HeroSection = () => {
@@ -92,7 +92,7 @@ const HeroSection = () => {
         const ethAmount = (0.0069 * _amount).toString();
         const accounts = await ethereum.request({ method: "eth_accounts" });
 
-        if (num >= 1000) {
+        if (num >= 7) {
           setFeedback("starting payment...");
           let mintNft = await nftContract.mint(accounts[0], _amount, {
             value: ethers.utils.parseEther(ethAmount),
@@ -205,13 +205,13 @@ const HeroSection = () => {
       <HeroBg>
         <ImageBg src={bg} />
 
-        <ImageBg2 src={bg2} />
+        {/* <ImageBg2 src={bg2} /> */}
       </HeroBg>
       <HeroContent>
         <MintDiv>
           <MiniAbout>0xWonderPals is an expansion collection of 10K unique reconstructed cute NFTs. There are no duplicates of the original project. </MiniAbout>
-          <First></First>
-          <Then>0.0069Ξ each (max 25 NFT per tx.)</Then>
+          <First>#YellowArmy</First>
+          <Then>0.0069Ξ each (max 25 NFT / tx.)</Then>
           <Minted>
             <MintCText>Minted</MintCText>
             <MintCText2>{supply}/10000</MintCText2>
